@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: rgb(209, 247, 200);
   font-family: Arial, sans-serif; /* Change the font family */
-  color: #d5ffb3;
+  color: #fcfcfc;
   text-shadow: 0 0 2px #000; /* Add a black border effect to the text */
 }
 .container {
@@ -14,6 +14,7 @@ body {
   border-radius: 5px;
   background-image: url('snoop.jpg'); /* Add the URL of your background image */
   background-size: cover; /* Set background size to auto */
+  text-align: center;
 }
 
 /* Rest of your CSS styles here */
@@ -65,7 +66,8 @@ button:hover {
 }
 
 .result-container h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  color: #000;
 }
 
 /* Additional styles based on decision */
@@ -78,7 +80,22 @@ button:hover {
 }
 
 #decision {
-  font-size: 24px;
+  font-size: 50px;
+  color: #000;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Change background color on hover */
 }
 
 /* CSS for smaller screens */
@@ -103,3 +120,4 @@ button:hover {
     padding: 8px 16px;
   }
 }
+
