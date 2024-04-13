@@ -20,11 +20,11 @@ document.getElementById('survey-form').addEventListener('submit', function(event
     // Determine the decision based on the counts
     let decision;
     if (yesCount >= 8 && yesCount > noCount) {
-      decision = "Go Ahead And Buy IT Responsibly";
+      decision = "Buy it nana, You deserve it <3";
     } else if (noCount >= 8 && noCount > yesCount) {
-      decision = "Do NOT BUY IT";
+      decision = "Tsk, Tsk, tsk, save sa nana";
     } else {
-      decision = "Consult it with your handsome boyfriend";
+      decision = "Do the survey again or Consult it with your handsome boyfriend";
     }
   
     // Get the survey questions

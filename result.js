@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Add background images based on the decision
   const body = document.querySelector('body');
-  if (decision === "Go Ahead And Buy IT Responsibly") {
+  if (decision === "Buy it nana, You deserve it <3") {
     body.style.backgroundImage = "url('cong.png')";
-  } else if (decision === "Do NOT BUY IT") {
-    body.style.backgroundImage = "url('sad-kitten-background.jpg')";
-  } else if (decision === "Consult it with your handsome boyfriend") {
-    body.style.backgroundImage = "url('boyfriend-background.jpg')";
+  } else if (decision === "Tsk, Tsk, tsk, save sa nana") {
+    body.style.backgroundImage = "url('saddog.png')";
+  } else if (decision === "Do the survey again or Consult it with your handsome boyfriend") {
+    body.style.backgroundImage = "url('Mina.jpeg')";
   }
 });
