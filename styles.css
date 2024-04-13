@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(209, 247, 200);
+  font-family: Arial, sans-serif; /* Change the font family */
+  color: #d5ffb3;
+  text-shadow: 0 0 2px #000; /* Add a black border effect to the text */
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #503e3e;
+  border-radius: 5px;
+  background-image: url('snoop.jpg'); /* Add the URL of your background image */
+  background-size: cover; /* Set background size to auto */
+}
+
+/* Rest of your CSS styles here */
+
+.form-group {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/* Target question labels specifically */
+.form-group > label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px; /* Adjust the font size of the question labels */
+}
+
+/* Change font weight for answer labels */
+.form-group label input[type="radio"] {
+  font-weight: normal;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result-container {
+  max-width: 800px; /* Adjust the maximum width for better readability */
+  margin: 20px auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: #fff; /* Set a white background color */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.result-container h1 {
+  margin-bottom: 20px;
+}
+
+/* Additional styles based on decision */
+.result-container.congratulatory {
+  background-image: url('cong.png');
+}
+
+.result-container.sad {
+  background-image: url('saddog.png');
+}
+
+#decision {
+  font-size: 24px;
+}
+
+/* CSS for smaller screens */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%; /* Adjust the container width to fit the screen */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  /* Adjust font sizes for smaller screens */
+  h1 {
+    font-size: 24px;
+  }
+
+  .form-group label {
+    font-size: 16px;
+  }
+
+  /* Adjust button size for smaller screens */
+  button {
+    padding: 8px 16px;
+  }
+}
